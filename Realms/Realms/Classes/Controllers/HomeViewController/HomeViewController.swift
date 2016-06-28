@@ -41,9 +41,7 @@ class HomeViewController: RealmViewController  {
         super.didReceiveMemoryWarning()
         
     }
-    
-   
-    
+
     func reloadTable(){
      
         do {
