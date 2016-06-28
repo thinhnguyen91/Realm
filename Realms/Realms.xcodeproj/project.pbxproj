@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F906AAC3B1EE64ED41B506B /* Pods_Realms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C741A102D14B242C5C22EB7D /* Pods_Realms.framework */; };
+		FA0AE4111D191F070050D43F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0AE40F1D191F070050D43F /* ProfileViewController.swift */; };
+		FA0AE4121D191F070050D43F /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0AE4101D191F070050D43F /* ProfileViewController.xib */; };
+		FA0AE4161D192FE50050D43F /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0AE4141D192FE50050D43F /* DatePickerView.swift */; };
+		FA0AE4171D192FE50050D43F /* DatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0AE4151D192FE50050D43F /* DatePickerView.xib */; };
+		FA0AE41E1D19342B0050D43F /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0AE41C1D19342B0050D43F /* PickerView.swift */; };
+		FA0AE41F1D19342B0050D43F /* PickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0AE41D1D19342B0050D43F /* PickerView.xib */; };
+		FA1476F11D18D86C002BBF55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1476F01D18D86C002BBF55 /* AppDelegate.swift */; };
+		FA1476F81D18D86C002BBF55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1476F71D18D86C002BBF55 /* Assets.xcassets */; };
+		FA1476FB1D18D86C002BBF55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1476F91D18D86C002BBF55 /* LaunchScreen.storyboard */; };
+		FA1477141D18DB0E002BBF55 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1477121D18DB0E002BBF55 /* HomeViewController.swift */; };
+		FA1477151D18DB0E002BBF55 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1477131D18DB0E002BBF55 /* HomeViewController.xib */; };
+		FA1477191D18DDB0002BBF55 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1477171D18DDB0002BBF55 /* HomeCell.swift */; };
+		FA14771A1D18DDB0002BBF55 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1477181D18DDB0002BBF55 /* HomeCell.xib */; };
+		FA1477251D18EE75002BBF55 /* RealmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1477241D18EE75002BBF55 /* RealmViewController.swift */; };
+		FA1477291D18F0BE002BBF55 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1477271D18F0BE002BBF55 /* DetailViewController.swift */; };
+		FA14772A1D18F0BE002BBF55 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1477281D18F0BE002BBF55 /* DetailViewController.xib */; };
+		FA48DEA01D1A3D7600042C1D /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48DE9F1D1A3D7600042C1D /* Student.swift */; };
+		FA56D5071D1CEF8500D5503B /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA56D5061D1CEF8500D5503B /* FileManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33F5F6FEBB99E1FB24E3C607 /* Pods-Realms.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realms.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Realms/Pods-Realms.debug.xcconfig"; sourceTree = "<group>"; };
+		B72D30E7DD23B1C5265457B5 /* Pods-Realms.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realms.release.xcconfig"; path = "Pods/Target Support Files/Pods-Realms/Pods-Realms.release.xcconfig"; sourceTree = "<group>"; };
+		C741A102D14B242C5C22EB7D /* Pods_Realms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Realms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0AE40F1D191F070050D43F /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FA0AE4101D191F070050D43F /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		FA0AE4141D192FE50050D43F /* DatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		FA0AE4151D192FE50050D43F /* DatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerView.xib; sourceTree = "<group>"; };
+		FA0AE41C1D19342B0050D43F /* PickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		FA0AE41D1D19342B0050D43F /* PickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickerView.xib; sourceTree = "<group>"; };
+		FA1476ED1D18D86C002BBF55 /* Realms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Realms.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1476F01D18D86C002BBF55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		FA1476F71D18D86C002BBF55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA1476FA1D18D86C002BBF55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA1476FC1D18D86C002BBF55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1477121D18DB0E002BBF55 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FA1477131D18DB0E002BBF55 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		FA1477171D18DDB0002BBF55 /* HomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		FA1477181D18DDB0002BBF55 /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		FA1477241D18EE75002BBF55 /* RealmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmViewController.swift; sourceTree = "<group>"; };
+		FA1477271D18F0BE002BBF55 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FA1477281D18F0BE002BBF55 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		FA48DE9F1D1A3D7600042C1D /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		FA56D5061D1CEF8500D5503B /* FileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA1476EA1D18D86C002BBF55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F906AAC3B1EE64ED41B506B /* Pods_Realms.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1215386D66B0199A1D338A0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C741A102D14B242C5C22EB7D /* Pods_Realms.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7723B826312445906B7C3FC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33F5F6FEBB99E1FB24E3C607 /* Pods-Realms.debug.xcconfig */,
+				B72D30E7DD23B1C5265457B5 /* Pods-Realms.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA0AE40E1D191DF00050D43F /* ProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FA0AE40F1D191F070050D43F /* ProfileViewController.swift */,
+				FA0AE4101D191F070050D43F /* ProfileViewController.xib */,
+			);
+			path = ProfileViewController;
+			sourceTree = "<group>";
+		};
+		FA0AE4131D192FD30050D43F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA0AE41C1D19342B0050D43F /* PickerView.swift */,
+				FA0AE41D1D19342B0050D43F /* PickerView.xib */,
+				FA0AE4141D192FE50050D43F /* DatePickerView.swift */,
+				FA0AE4151D192FE50050D43F /* DatePickerView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA1476E41D18D86C002BBF55 = {
+			isa = PBXGroup;
+			children = (
+				FA1476EF1D18D86C002BBF55 /* Realms */,
+				FA1476EE1D18D86C002BBF55 /* Products */,
+				7723B826312445906B7C3FC6 /* Pods */,
+				1215386D66B0199A1D338A0C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA1476EE1D18D86C002BBF55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA1476ED1D18D86C002BBF55 /* Realms.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA1476EF1D18D86C002BBF55 /* Realms */ = {
+			isa = PBXGroup;
+			children = (
+				FA1477021D18D8D7002BBF55 /* Classes */,
+				FA1476F71D18D86C002BBF55 /* Assets.xcassets */,
+				FA1476F91D18D86C002BBF55 /* LaunchScreen.storyboard */,
+				FA1476FC1D18D86C002BBF55 /* Info.plist */,
+			);
+			path = Realms;
+			sourceTree = "<group>";
+		};
+		FA1477021D18D8D7002BBF55 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FA0AE4131D192FD30050D43F /* Views */,
+				FA1476F01D18D86C002BBF55 /* AppDelegate.swift */,
+				FA1477101D18DAFB002BBF55 /* Controllers */,
+				FA14771D1D18E1CB002BBF55 /* Base */,
+				FA1477051D18D965002BBF55 /* CustomViews */,
+				FA1477041D18D8D7002BBF55 /* Models */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FA1477041D18D8D7002BBF55 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA48DE9F1D1A3D7600042C1D /* Student.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA1477051D18D965002BBF55 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CustomViews;
+			path = Contrllers/CustomViews;
+			sourceTree = "<group>";
+		};
+		FA1477101D18DAFB002BBF55 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA1477111D18DAFB002BBF55 /* HomeViewController */,
+				FA1477261D18F0A3002BBF55 /* DetailViewControler */,
+				FA0AE40E1D191DF00050D43F /* ProfileViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FA1477111D18DAFB002BBF55 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FA1477121D18DB0E002BBF55 /* HomeViewController.swift */,
+				FA1477131D18DB0E002BBF55 /* HomeViewController.xib */,
+				FA1477161D18DD98002BBF55 /* HomeCell */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		FA1477161D18DD98002BBF55 /* HomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA1477171D18DDB0002BBF55 /* HomeCell.swift */,
+				FA1477181D18DDB0002BBF55 /* HomeCell.xib */,
+			);
+			path = HomeCell;
+			sourceTree = "<group>";
+		};
+		FA14771D1D18E1CB002BBF55 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FA56D5061D1CEF8500D5503B /* FileManager.swift */,
+				FA1477241D18EE75002BBF55 /* RealmViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FA1477261D18F0A3002BBF55 /* DetailViewControler */ = {
+			isa = PBXGroup;
+			children = (
+				FA1477271D18F0BE002BBF55 /* DetailViewController.swift */,
+				FA1477281D18F0BE002BBF55 /* DetailViewController.xib */,
+			);
+			path = DetailViewControler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA1476EC1D18D86C002BBF55 /* Realms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1476FF1D18D86C002BBF55 /* Build configuration list for PBXNativeTarget "Realms" */;
+			buildPhases = (
+				F383C123CDAE2F524CF9062F /* [CP] Check Pods Manifest.lock */,
+				FA1476E91D18D86C002BBF55 /* Sources */,
+				FA1476EA1D18D86C002BBF55 /* Frameworks */,
+				FA1476EB1D18D86C002BBF55 /* Resources */,
+				AA0BC4CDEED8E03A7530B569 /* [CP] Embed Pods Frameworks */,
+				F4175282E6EBAC6A77B471DF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Realms;
+			productName = Realms;
+			productReference = FA1476ED1D18D86C002BBF55 /* Realms.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA1476E51D18D86C002BBF55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = AsianTech;
+				TargetAttributes = {
+					FA1476EC1D18D86C002BBF55 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = FA1476E81D18D86C002BBF55 /* Build configuration list for PBXProject "Realms" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA1476E41D18D86C002BBF55;
+			productRefGroup = FA1476EE1D18D86C002BBF55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA1476EC1D18D86C002BBF55 /* Realms */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA1476EB1D18D86C002BBF55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0AE41F1D19342B0050D43F /* PickerView.xib in Resources */,
+				FA0AE4121D191F070050D43F /* ProfileViewController.xib in Resources */,
+				FA0AE4171D192FE50050D43F /* DatePickerView.xib in Resources */,
+				FA1476FB1D18D86C002BBF55 /* LaunchScreen.storyboard in Resources */,
+				FA1476F81D18D86C002BBF55 /* Assets.xcassets in Resources */,
+				FA14772A1D18F0BE002BBF55 /* DetailViewController.xib in Resources */,
+				FA14771A1D18DDB0002BBF55 /* HomeCell.xib in Resources */,
+				FA1477151D18DB0E002BBF55 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA0BC4CDEED8E03A7530B569 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Realms/Pods-Realms-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F383C123CDAE2F524CF9062F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4175282E6EBAC6A77B471DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Realms/Pods-Realms-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA1476E91D18D86C002BBF55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0AE4111D191F070050D43F /* ProfileViewController.swift in Sources */,
+				FA1476F11D18D86C002BBF55 /* AppDelegate.swift in Sources */,
+				FA1477191D18DDB0002BBF55 /* HomeCell.swift in Sources */,
+				FA1477291D18F0BE002BBF55 /* DetailViewController.swift in Sources */,
+				FA48DEA01D1A3D7600042C1D /* Student.swift in Sources */,
+				FA56D5071D1CEF8500D5503B /* FileManager.swift in Sources */,
+				FA0AE41E1D19342B0050D43F /* PickerView.swift in Sources */,
+				FA0AE4161D192FE50050D43F /* DatePickerView.swift in Sources */,
+				FA1477251D18EE75002BBF55 /* RealmViewController.swift in Sources */,
+				FA1477141D18DB0E002BBF55 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA1476F91D18D86C002BBF55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA1476FA1D18D86C002BBF55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA1476FD1D18D86C002BBF55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA1476FE1D18D86C002BBF55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA1477001D18D86C002BBF55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33F5F6FEBB99E1FB24E3C607 /* Pods-Realms.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Realms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ast.Realms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA1477011D18D86C002BBF55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B72D30E7DD23B1C5265457B5 /* Pods-Realms.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Realms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ast.Realms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA1476E81D18D86C002BBF55 /* Build configuration list for PBXProject "Realms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1476FD1D18D86C002BBF55 /* Debug */,
+				FA1476FE1D18D86C002BBF55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1476FF1D18D86C002BBF55 /* Build configuration list for PBXNativeTarget "Realms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1477001D18D86C002BBF55 /* Debug */,
+				FA1477011D18D86C002BBF55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA1476E51D18D86C002BBF55 /* Project object */;
+}
